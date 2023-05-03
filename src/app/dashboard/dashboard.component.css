@@ -1,0 +1,52 @@
+.logo_Arg_P:hover{
+    transform: scale(1.2);
+    transition-duration: 250ms;
+}
+
+.logo_Arg_P{
+    width: 110px;
+    height: auto;
+    filter: invert(1);
+    -webkit-filter: invert(1); 
+    -moz-filter: invert(1)
+    
+}
+
+i.fa-brands.fa-github:hover{
+    color: #6cc644;
+    transform: scale(1.7);
+    }
+
+i.fa-brands.fa-facebook:hover{
+color: #4b89e6;
+transform: scale(1.7);
+}
+
+i.fa-brands.fa-linkedin:hover{
+    color: #0e76a8;
+    transform: scale(1.7);
+}
+i.fa-brands.fa-instagram:hover{
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        background-clip: text;
+        border-radius: 20%;
+        transform: scale(1.7);
+}
+
+i.fa-solid.fa-user:hover{
+    transform: scale(1.5);
+}
+
+.bg-light1{
+    /* background-image: url("Img/blue-electronic-digital-background.webp"); */
+    width: auto;
+    border: 1.5px solid black;
+    border-radius: 2px;
+    background: linear-gradient(90deg, #72C6EF 0%, #004E8F 100%);
+    
+}
+
+.list-group {
+    --bs-list-group-bg: transparent;
+    --bs-list-group-border-color: transparent;
+}

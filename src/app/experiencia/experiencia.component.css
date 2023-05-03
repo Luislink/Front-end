@@ -1,0 +1,31 @@
+.exp-Lab{
+    padding-top: 2px;
+    padding-bottom: 1%;
+}
+
+.experiencias{
+    border-top: 3px solid;
+    border-color: rgb(173, 172, 172);
+}
+.list-group-item{
+    background-color: transparent;
+}
+.logo-Facet{
+    width: 45%;
+    
+}
+.logo-Facet:hover{
+    transform: scale(1.2);
+    transition-duration: 250ms;
+}
+.logo_tec{
+    margin-top: 20px;
+    width: 45%;
+    border-radius: 50%;
+    border: solid;
+    border-color: rgb(106, 125, 155);
+}
+.logo_tec:hover{
+    transform: scale(1.2);
+    transition-duration: 250ms;
+}

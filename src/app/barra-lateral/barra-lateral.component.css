@@ -1,0 +1,26 @@
+.list-group {
+    --bs-list-group-bg: transparent;
+    --bs-list-group-border-color: transparent;
+}
+
+.img-fluid.foto-perfil-dashboard{
+    width: 50%;
+    margin-left: 10px;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+}
+.admin{
+    font-size: 1.2rem;
+}
+.link{
+    text-decoration: none;
+    color: white;
+
+}
+.Columna-Dashboard{
+    background-color: black;
+}
+.list-group{
+--bs-list-group-action-hover-bg: #2a3540;
+}

@@ -1,0 +1,23 @@
+.educacion{
+    border-bottom: 3px solid;
+    border-top: 3px solid;
+    border-color: rgb(173, 172, 172);
+}
+.logo_IT{
+    width: 45%;
+}
+.logo_IT:hover{
+    transform: scale(1.2);
+    transition-duration: 250ms;
+}
+.logo_UNT{
+    width: 55%;
+}
+.logo_UNT:hover{
+    transform: scale(1.2);
+    transition-duration: 250ms;
+}
+.experiencias{
+    border-top: 3px solid;
+    border-color: rgb(173, 172, 172);
+}

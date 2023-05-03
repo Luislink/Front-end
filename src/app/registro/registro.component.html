@@ -1,0 +1,61 @@
+<app-navbar></app-navbar>
+<!-- Formulario de login -->
+<section class="login">
+    <div class="container">
+        <div class="row">
+          <div class="col-3">
+            
+          </div>
+          <div class="col-6 formulario-login mb-3">
+            <h3>Registra tus datos</h3>
+          </div>
+          <div class="col-3">
+            
+          </div>
+        </div>
+      </div>
+<div class="container">
+    <div class="row">
+      <div class="col-3">
+      </div>
+      <div class="col-6">
+        <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"><b>Email</b></label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+                <div id="emailHelp" class="form-text">
+                 <b>Nunca compartiremos tu información con nadie.</b>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label"
+                  ><b>Contraseña</b></label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                />
+              </div>
+            </form>
+            <div class="modal-footer">
+                <button
+                  type="submit"
+                  class="btn btn-secondary">
+                  Registrarme
+                </button>
+              </div>
+              <small>Si ya tenes cuenta ingresá <a routerLink="/login">aquí</a></small>
+          </div>
+      </div>
+      <div class="col-3">
+      </div>
+    </div>
+  </div>
+</section>
