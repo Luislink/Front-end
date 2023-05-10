@@ -39,9 +39,13 @@
             <!-- Boton que envia al login -->
             <button
               class="btn btn-dark btn-lg"
-              type="submit">
-              <a routerLink="/login"><i class="fa-solid fa-user-lock text-white"></i></a>
+              type="" *ngIf="!isLogged">
+              <a routerLink="/login"><i class="fa-solid fa-user-lock text-white"></i></a> Login
             </button>
+            <button
+              class="btn btn-dark btn-lg"
+              type="submit" (click)="onLogOut()" *ngIf="isLogged">
+              <i class="fa-solid fa-user text-white"></i> LogOut</button>
           </a>
         </li>
       </ul>
