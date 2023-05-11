@@ -8,7 +8,7 @@ import { PersonaService } from '../service/persona.service';
   styleUrls: ['./barra-lateral.component.css']
 })
 export class BarraLateralComponent implements OnInit {
-  persona: persona = new persona("","");
+  persona: persona = new persona("","","","","","","");
   constructor(public personaService: PersonaService){
 
   }
