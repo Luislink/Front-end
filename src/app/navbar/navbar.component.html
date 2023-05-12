@@ -6,6 +6,13 @@
       </a>
       <ul class="list-group list-group-horizontal">
         <li class="list-group-item">
+          <a class="nav-link" routerLink="/dashboard" target="_blank">
+            <button class="btn btn-dark btn-lg" type="submit">
+              Dashboard
+            </button>
+          </a>
+        </li>
+        <li class="list-group-item">
           <a class="nav-link" href="https://www.facebook.com/luis.juarez.1293575" target="_blank">
             <button class="btn btn-dark btn-lg" type="submit">
               <i class="fa-brands fa-github"></i>
@@ -35,19 +42,21 @@
           </a>
         </li>
         <li class="list-group-item">
-          <a class="nav-link" href="#">
+          
             <!-- Boton que envia al login -->
             <button
               class="btn btn-dark btn-lg"
-              type="" *ngIf="!isLogged">
-              <a routerLink="/login"><i class="fa-solid fa-user-lock text-white"></i></a> Login
+              type="submint" (click)="login()" *ngIf="!isLogged">
+              <i class="fa-solid fa-user-lock text-white"></i> Login
             </button>
             <button
               class="btn btn-dark btn-lg"
               type="submit" (click)="onLogOut()" *ngIf="isLogged">
               <i class="fa-solid fa-user text-white"></i> LogOut</button>
-          </a>
+          
         </li>
       </ul>
     </div>
+    <div *ngIf="isLogged"><b>  Status:-- logedd -- </b></div>
+    <div *ngIf="!isLogged"><b> Status:-- no logged --</b></div>
   </nav>
